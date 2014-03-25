@@ -1,0 +1,70 @@
+@import url("http://fonts.googleapis.com/css?family=Tangerine:regular,bold|OFL+Sorts+Mill+Goudy+TT&subset=latin");
+
+body {
+	color:#000;
+	background-color:#fff;
+	font-family:'OFL Sorts Mill Goudy TT','Trebuchet MS',Tahoma,Verdana,Arial,sans-serif;
+	font-size: 14px;
+	text-align:left;
+	margin:0px;
+	padding:0px;
+}
+
+h1 {                                                                             
+    text-align:center;
+    font-size:1.8em;
+    font-weight:normal;
+}
+
+#container { width:75%; margin:0 auto; }
+
+#header {
+  margin-top: 50px;
+  text-align: left;
+  font-family: 'Tangerine', serif;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 400;
+  text-shadow: 6px 6px 6px #ccc;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: 0em;
+  word-spacing: 0em;
+  line-height: 1em;
+}
+
+#header a { 
+    text-decoration: none;
+    color: #000; 
+}
+
+#header-date {
+  margin-bottom: 50px;
+  text-align: right;
+  font-family: 'Tangerine', serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: 0em;
+  word-spacing: 0em;
+  line-height: 1em;
+}
+
+#navigation { float:left; width:25%; margin-top: 10px; }
+#navigation ul { margin: 0; list-style-type: none; }
+#navigation li { margin-top: 10px; margin-bottom: 10px; }
+#navigation a { color: #000; text-decoration: none; font-weight: normal; }
+#navigation a:visited { color: #444; }
+#navigation a:hover { font-weight: bold; }
+
+#main { float:right; width:75%; }
+
+#footer { 
+padding: 50px;
+clear: both; 
+text-align: right; 
+}
+
+dl dt + dd { margin-bottom: 2ex;  }

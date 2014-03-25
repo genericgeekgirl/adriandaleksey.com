@@ -1,0 +1,107 @@
+body {
+    margin:10px;
+    padding:0px;
+}
+
+input, textarea {
+    font-family:Tahoma,Arial,serif;
+    font-size:inherit;
+}
+
+.form-container {
+    font-size:.813em;
+    background:#fff;
+    /*background: rgb(192,192,255);*/
+    border:3px;
+    font-size:14px;
+    line-height:1.6em;
+    margin:25px auto;
+    max-width:1000px;
+    min-width: 480px;
+    width: 75%;
+}
+
+.field-unified {
+    /*background: rgb(255, 255, 192);*/
+    /*border: 1px solid black;*/
+    display: block;
+    vertical-align: middle;
+    padding: 2ex 1em;
+    margin-left: 5em;
+}
+
+p, h1, h2, h3, h4, h5 {
+    padding:0 0 1em 0;
+}
+
+h1.form-title {
+    text-align:center;  
+    color:#ed174b;
+    font-size:1.3em;
+    font-weight:normal;
+    line-height:20px;
+}
+
+.field-required { 
+    width:1%; 
+    color:#c43b1d; 
+}
+
+.field-name {
+    width:44%; 
+    display: inline-block;
+    text-align: left;
+    white-space: normal;
+}
+
+.field-input { 
+    left: 45%;
+    width: 55%;
+    display: inline-block;
+    text-align: right;
+}
+
+.ss-required-asterisk {
+    color:#ed174b;
+}
+
+.form-entry { 
+    background:#fff;
+    /*background: rgb(192,255,192);*/
+    border: none;
+    /*border: 1px solid blue;*/
+    text-align: center;
+}
+
+.form-entry * input {
+    vertical-align: middle;
+    margin-top: 0;
+}
+
+.form-submit {
+/*    background: #a00000;*/
+    display: block;
+    border: none;
+    text-align: right;
+    width: 90%;
+}
+
+.form-submit input {
+}
+
+div.errorbox-good, div.errorbox-bad {
+    background:none;
+    border:none;
+    margin: 0;
+    padding: 0px 1em;
+    width: 81%;
+    white-space: nowrap;
+    display: inline-block;
+    /*text-align: justify;*/
+}
+
+.form-entry div.errorbox-bad {
+    background:#ffeff3;
+    border:1px solid #ed174b;
+    color:#ed174b;
+}
